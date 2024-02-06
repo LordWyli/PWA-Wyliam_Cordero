@@ -1,0 +1,112 @@
+\documentclass[]{article}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+%opening
+\title{Concepts and Features of PWA}
+\author{Wyliam Cordero Tovilla}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Concept}
+	\paragraph{\space}{
+		A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app.
+		
+		Like a website, a PWA can run on multiple platforms and devices from a single codebase. Like a platform-specific app, it can be installed on the device, can operate while offline and in the background, and can integrate with the device and with other installed apps.
+	}
+	
+	\section{Characteristics}
+	\paragraph{\space}{
+		Progressive web applications or PWAs have been an important evolution with respect to mobile apps as we knew them until now.
+	}
+	
+	\paragraph{}{
+		PWAs behave like web pages but, at the same time, they use different technologies that allow them to be used as native applications.
+	}
+	
+	\paragraph{}{
+		One of its main features is that it can be installed as a native app but used as a web app in the background. However, they do not have the limitations of the latter, since they can perform practically the same tasks as native applications.
+	}
+	
+	
+	
+	\section{Advantages and disadvantages of PWAs}
+	
+	\subsection{Advantages}
+	
+	\begin{itemize}
+		\item \textbf{Offline Access:} PWAs can function without a connection or in weak network conditions thanks to the use of Service Workers.
+		
+		\item \textbf{Native-Like User Experience:} They provide a user experience similar to native applications, including smooth interactions and quick access from the home screen.
+		
+		\item \textbf{Installation on Device:} Users can "install" a PWA on their devices for quick access, even without a constant internet connection.
+		
+		\item \textbf{Automatic Updates:} PWAs update automatically, eliminating the need for users to manually download updates.
+		
+		\item \textbf{Cost-Effective Development:} They can be more cost-effective to develop and maintain compared to native applications for different platforms.
+		
+		\item \textbf{Compatibility with Multiple Devices:} PWAs are designed to work on various devices and browsers, improving accessibility and compatibility.
+	\end{itemize}
+	
+	\subsection{Disadvantages}
+	
+	\begin{itemize}
+		\item \textbf{Limitations in Advanced Features:} Although they have improved over time, PWAs may have limitations in accessing hardware and advanced features compared to native applications.
+		
+		\item \textbf{Lower Visibility in App Stores:} PWAs may have lower visibility in app stores compared to native applications.
+		
+		\item \textbf{Requires Compatible Browser:} To use advanced features of a PWA, users need a compatible browser. Some features may not be available in all browsers.
+		
+		\item \textbf{Possible Dependency on Initial Connection:} Although they can work offline, some PWAs may depend on an initial connection for installation or updates.
+		
+		\item \textbf{Initial Download Size:} The need to download essential resources on the first access can increase the initial size of the application.
+		
+		\item \textbf{Limitations in Local Storage:} PWAs may have limitations in local storage compared to native applications.
+	\end{itemize}
+	\pagebreak
+	\section{Differences between web app, progressive app, and service app}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+			\hline
+			\textbf{Web App} & \textbf{Progressive Web App} & \textbf{App Services} \\
+			\hline
+			A web application is an application that runs in a web browser and is accessed over the Internet. &
+			A PWA is a web application that uses modern web technologies to deliver a user experience similar to that of a native application. 
+			&
+			The term "app services" is not as standard and can refer to various things. In some cases, it is used to describe specific applications that provide services, such as delivery, transportation, etc. \\
+			\hline
+			PWAs can be installed on the user's device for quick access, even without a connection.
+			&
+			Web applications are generally not installed and are accessed through a web browser.
+			&
+			App services can be either web or native, depending on the implementation.\\
+			\hline
+			PWAs are designed to function offline thanks to the use of Service Workers.
+			&
+			Web applications may depend more on online connectivity.
+			&
+			App services can have different approaches depending on their implementation.\\
+			\hline
+			PWAs can offer quick access from the home screen and a user experience similar to native applications.
+			&
+			Web applications are accessed through a web browser.
+			&
+			App services can vary in their access form, either through a browser or as native applications.
+		\end{tabular}
+		\caption{Table of Differences}
+		\label{tab:differences}
+	\end{table}
+	
+	\clearpage  % Added to ensure the table and bibliography section are on separate pages
+	
+	\section{Bibliography}
+	\begin{thebibliography}{9}
+		\bibitem{mozilla} Mozilla docs. (2023, October 25). Progressive web apps | MDN. MDN Web Docs. \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps}
+		\bibitem{ttandem} TTANDEM. (2023, October 25). PWA or Progressive Web Applications: What are they? - TTANDEM. Ttandem.com. \url{https://www.ttandem.com/blog/desarrollo-que-son-las-pwa-o-progressive-web-applications/}
+	\end{thebibliography}
+	
+\end{document}
