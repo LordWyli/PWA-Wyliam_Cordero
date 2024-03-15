@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Worker</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <img src="./img/logoNFL2.jpg" alt="Imagen Personalizada" class="img">
+    <h1>Menú de Pendientes NFL</h1>
+    <form id="menuForm">
+        <label for="opcion">Seleccione una opción:</label>
+        <select name="opcion" id="opcion">
+            <option value="1">Lista de todos los pendientes (solo IDs)</option>
+            <option value="2">Lista de todos los pendientes (IDs y Titles)</option>
+            <option value="3">Lista de todos los pendientes sin resolver (ID y Title)</option>
+            <option value="4">Lista de todos los pendientes resueltos (ID y Title)</option>
+            <option value="5">Lista de todos los pendientes (IDs y userID)</option>
+            <option value="6">Lista de todos los pendientes resueltos (ID y userID)</option>
+            <option value="7">Lista de todos los pendientes sin resolver (ID y userID)</option>
+            <option value="0">Salir</option>
+        </select>
+        <button type="submit">Seleccionar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/data.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</body>
+</html>
